@@ -12,27 +12,44 @@ div {
     }
 }
 */
+
 header {
   background-color: e87b1b;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 88px;
+  height: 44px;
 
   p {
     color: white;
     font-style: italic;
-    font-size: 33px;
+    font-size: 16px;
+    margin-top: 4px;
   }
 }
 
 .FirstTableGrid {
-  border=0;
-  cellspacing=0;
+  border:0;
+  cellspacing:0;
   border-collapse: collapse;border:none;
 }
 .normal {
   margin: 20px;
   text-indent: .25in;
+}
+
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navitems > div {
+  margin-top: 4px;
+  margin-left: auto;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 24px;
+  font-color:white;
+  width: 125px;
 }
