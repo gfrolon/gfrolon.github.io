@@ -13,6 +13,71 @@ div {
 }
 */
 
+/*
+some Bootstrap grid classes
+
+xsmall devices - mobile phones (<768px)
+.col-xs-*
+
+small devices (>=768px)
+.col-sm-*
+
+med devs (>=992px)
+.col-md-*
+
+large devs (>=1200px)
+.col-lg-*
+
+The * is a wild card for columns quantity space.
+The max number of columns is 12
+so my componene within a row should have a max of 12 or less
+so multiple components within a row should add up to 12 or less.
+
+.container = create a container for un in the grid.
+
+.row  = specify a row inside the container.
+
+hierarchy sugested would be
+.container
+  .row
+    .col
+      Contents
+
+Ex.
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+      CONTENTS
+      </div>
+    </div>
+  </div>
+</body>
+
+We can add our own css with our own css file.
+an easy way is to put another div for our contents
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="myclass">CONTENTS</div>
+      </div>
+    </div>
+  </div>
+</body>
+*/
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
 header {
   background-color: e87b1b;
   position: fixed;
@@ -52,4 +117,19 @@ header {
   font-size: 24px;
   font-color:white;
   width: 125px;
+}
+
+.bodystart {
+  margin-top: 46px;
+}
+
+.mynavclass {
+  text-align: center;
+  padding: inherit;
+  font-size: 24pt;
+  font-family: monospace;
+}
+
+.row {
+  height: 45px;
 }
