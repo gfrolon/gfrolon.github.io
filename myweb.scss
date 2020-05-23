@@ -1,0 +1,141 @@
+/*
+Nesting Example from cs50 video
+div {
+    font-size: 18px;
+
+    p {
+        color: blue;
+    }
+
+    ul {
+        color: green;
+    }
+}
+*/
+
+/*
+some Bootstrap grid classes
+
+xsmall devices - mobile phones (<768px)
+.col-xs-*
+
+small devices (>=768px)
+.col-sm-*
+
+med devs (>=992px)
+.col-md-*
+
+large devs (>=1200px)
+.col-lg-*
+
+The * is a wild card for columns quantity space.
+The max number of columns is 12
+so my componene within a row should have a max of 12 or less
+so multiple components within a row should add up to 12 or less.
+
+.container = create a container for un in the grid.
+
+.row  = specify a row inside the container.
+
+hierarchy sugested would be
+.container
+  .row
+    .col
+      Contents
+
+Ex.
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+      CONTENTS
+      </div>
+    </div>
+  </div>
+</body>
+
+We can add our own css with our own css file.
+an easy way is to put another div for our contents
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="myclass">CONTENTS</div>
+      </div>
+    </div>
+  </div>
+</body>
+*/
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
+$main-color:blue;
+$large-font: 36px;
+
+.navbar-custom {
+  background-color: lightblue;
+}
+header {
+  background-color: $main-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+
+  p {
+    color: white;
+    font-style: italic;
+    font-size: $large-font;
+    margin-top: 4px;
+  }
+}
+
+.FirstTableGrid {
+  border:0;
+  cellspacing:0;
+  border-collapse: collapse;border:none;
+}
+.normal {
+  margin: 20px;
+  text-indent: .25in;
+}
+
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navitems > div {
+  margin-top: 4px;
+  margin-left: auto;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 24px;
+  font-color:white;
+  width: 125px;
+}
+
+.bodystart {
+  margin-top: 46px;
+}
+
+.mynavclass {
+  text-align: center;
+  padding: inherit;
+  font-size: 24pt;
+  font-family: monospace;
+}
+
+.row {
+  height: 45px;
+}
