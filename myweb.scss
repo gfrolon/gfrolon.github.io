@@ -78,8 +78,11 @@ an easy way is to put another div for our contents
 
 }
 
+$main-color:blue;
+$large-font: 36px;
+
 header {
-  background-color: e87b1b;
+  background-color: $main-color;
   position: fixed;
   top: 0;
   left: 0;
@@ -89,7 +92,7 @@ header {
   p {
     color: white;
     font-style: italic;
-    font-size: 16px;
+    font-size: $large-font;
     margin-top: 4px;
   }
 }
