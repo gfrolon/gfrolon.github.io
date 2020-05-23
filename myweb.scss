@@ -84,6 +84,11 @@ $large-font: 36px;
 .navbar-custom {
   background-color: lightblue;
 }
+
+.navbar-brand-custom {
+  max-height: 30px;
+}
+
 header {
   background-color: $main-color;
   position: fixed;

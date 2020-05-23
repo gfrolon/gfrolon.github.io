@@ -70,6 +70,10 @@ an easy way is to put another div for our contents
   background-color: lightblue;
 }
 
+.navbar-brand-custom {
+  max-height: 30px;
+}
+
 header {
   background-color: blue;
   position: fixed;
