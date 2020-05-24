@@ -68,6 +68,9 @@ an easy way is to put another div for our contents
 </body>
 */
 
+$main-color:blue;
+$large-font: 36px;
+
 @media (max-width: 992px) {
 
 }
@@ -78,18 +81,10 @@ an easy way is to put another div for our contents
 
 }
 
-$main-color:blue;
-$large-font: 36px;
-
 .navbar-custom {
   background-color: lightblue;
 }
-
-.navbar-brand-custom {
-  max-height: 30px;
-}
-
-header {
+ header {
   background-color: $main-color;
   position: fixed;
   top: 0;
