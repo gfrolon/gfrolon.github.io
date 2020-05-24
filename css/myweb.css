@@ -66,42 +66,14 @@ an easy way is to put another div for our contents
   </div>
 </body>
 */
-<<<<<<< HEAD
-=======
-@media (max-width: 992px) {
-  .nav-brand-custom {
-    height: 36px;
-  }
-}
-@media (max-width: 768px) {
-  .nav-brand-custom {
-    width: 36px;
-  }
-}
-@media (max-width: 576px) {
-  .nav-brand-custom {
-    width: 400px;
-    height: auto;
-  }
-}
-@media (max-width: 479px) {
-  .nav-brand-custom {
-    width: 300px;
-    height: auto;
-  }
-}
->>>>>>> navbar
 .navbar-custom {
   background-color: lightblue;
 }
 
-<<<<<<< HEAD
 .navbar-brand-custom {
   max-height: 30px;
 }
 
-=======
->>>>>>> navbar
 header {
   background-color: blue;
   position: fixed;
