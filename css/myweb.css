@@ -66,6 +66,16 @@ an easy way is to put another div for our contents
   </div>
 </body>
 */
+@media (max-width: 992px) {
+  .nav-brand-custom {
+    max-height: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .nav-brand-custom {
+    max-height: 100px;
+  }
+}
 .navbar-custom {
   background-color: lightblue;
 }
