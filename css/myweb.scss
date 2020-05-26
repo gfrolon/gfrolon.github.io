@@ -81,9 +81,9 @@ $large-font: 36px;
     width: 36px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .nav-brand-custom {
-    width:400px;
+    width:auto;
     height: auto;
   }
 }

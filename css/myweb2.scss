@@ -1,0 +1,72 @@
+$main-color:lightblue;
+$large-font-size-36: 36px;
+$navcustomcolor: lightblue;
+
+/*Bootstrap responsive media queries*/
+/* Small devices (landscape phones) */
+
+ @media (min-width: 576px) {
+   .nav-brand-custom {
+     width: 45px;
+     height:auto;
+   }
+ }
+
+ /* Medium devices (tablets) */
+
+ @media (min-width: 768px) {
+   .nav-brand-custom {
+     width: 45px;
+     height: 45px;
+   }
+ }
+
+ /* Large devices (desktops) */
+
+ @media (min-width: 992px) {
+   .nav-brand-custom {
+     width: 45px;
+     height:auto;
+   }
+ }
+
+ /* Extra large devices (large desktops) */
+
+ @media (min-width: 1200px) {
+   .nav-brand-custom {
+     width: 45px;
+     height:auto;
+   }
+ }
+
+ /* The given screen size or smaller */
+
+ /* Extra small devices (portrait phones)*/
+
+ @media (max-width: 575px) {
+   .nav-brand-custom {
+     width:200px;
+   }
+ }
+
+ /* Small devices (landscape phones)*/
+
+ @media (max-width: 767px) {
+
+ }
+
+ /* Medium devices (tablets)*/
+
+ @media (max-width: 991px) {
+
+ }
+
+ /* Large devices (desktops)*/
+
+ @media (max-width: 1199px) {
+
+ }
+
+ .navbar-custom {
+   background-color: $navcustomcolor;
+ }
